@@ -130,15 +130,6 @@ We welcome educational improvements, documentation fixes, and better examples. P
 
 MIT License - For educational use only. Commercial use prohibited.
 
-## 🔍 Learn More About Shades
 
-1. [Shades Documentation](https://docs.shades.org) - Production system docs
-2. [Shades Whitepaper](https://shades.org/whitepaper) - Technical details
-3. [Twitter @ShadesProtocol](https://twitter.com/ShadesProtocol) - Updates
-
-##  Questions?
-
-Join our [Discord](https://discord.gg/shades) for educational discussions about ZK verification on Starknet.
-```
 
 ---
