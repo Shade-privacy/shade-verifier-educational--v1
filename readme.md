@@ -1,12 +1,5 @@
-# **Shades Ecosystem - Educational Repositories**
 
-**Important**: These repositories contain **basic educational implementations only**. The actual Shades production code with advanced features like `complete_private_flow()`, encrypted note system, and multi-chain relayers remains proprietary.
 
----
-
-## **Repository 1: `shades-verifier-educational`**
-
-### **README.md:**
 
 ```markdown
 #  Shades Verifier - Educational Implementation
