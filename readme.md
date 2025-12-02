@@ -1,7 +1,6 @@
 
 
 
-```markdown
 #  Shades Verifier - Educational Implementation
 
 > ** Educational Purposes Only**  
@@ -33,7 +32,7 @@ Understand how ZK proof verification works on Starknet:
 
 ##  Repository Structure
 
-```
+
 shades-verifier-educational/
 ├── src/
 │   ├── groth16_verifier.cairo    
