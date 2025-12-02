@@ -9,12 +9,12 @@
 ### **README.md:**
 
 ```markdown
-# 🔐 Shades Verifier - Educational Implementation
+#  Shades Verifier - Educational Implementation
 
-> **⚠️ Educational Purposes Only**  
+> ** Educational Purposes Only**  
 > This is a **simplified, non-production** verifier contract demonstrating the verification layer of Shades. The actual Shades production verifier implements advanced Noir proof verification with gas optimizations and multi-chain support.
 
-## 🌗 What This Repository Contains
+##  What This Repository Contains
 
 This repository provides **educational reference implementations** of:
 - Basic Groth16 verifier for Starknet
@@ -22,7 +22,7 @@ This repository provides **educational reference implementations** of:
 - Proof verification patterns
 - Test utilities for learning
 
-## 🚫 What This Repository DOES NOT Contain
+## What This Repository DOES NOT Contain
 
 The **actual Shades production verifier** includes:
 - ✅ Noir-specific proof verification
@@ -30,7 +30,7 @@ The **actual Shades production verifier** includes:
 - ✅ Production-ready security features
 - ✅ Real verification key management
 
-## 🎯 Learning Objectives
+##  Learning Objectives
 
 Understand how ZK proof verification works on Starknet:
 1. **Proof Structure**: Learn about (A, B, C) points in Groth16
@@ -38,25 +38,21 @@ Understand how ZK proof verification works on Starknet:
 3. **Gas Optimization**: Basic patterns for efficient verification
 4. **Security Considerations**: Common pitfalls in verifier design
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 shades-verifier-educational/
 ├── src/
-│   ├── groth16_verifier.cairo    # Basic Groth16 implementation
-│   ├── verifier_interface.cairo  # Standardized interfaces
-│   └── test_utils.cairo          # Testing helpers
+│   ├── groth16_verifier.cairo    
+│   ├── verifier_interface.cairo  
+│   └── test_utils.cairo          
 ├── examples/
-│   ├── verify_proof.cairo        # Example usage
-│   └── custom_verifier.cairo     # Extending the verifier
-├── tests/
-│   └── test_verifier.cairo       # Basic test cases
-└── docs/
-    ├── VERIFICATION_GUIDE.md     # Step-by-step guide
-    └── SECURITY_NOTES.md         # Important security considerations
+    ├── verify_proof.cairo        
+    └── custom_verifier.cairo     
+
 ```
 
-## 🚀 Quick Start
+##  Quick Start
 
 ```bash
 # Clone the repository
@@ -70,7 +66,7 @@ scarb build
 scarb test
 ```
 
-## 📚 Example Usage
+##  Example Usage
 
 ```rust
 // Educational example - NOT production code
@@ -103,7 +99,7 @@ fn verify_complete_private_flow(
 }
 ```
 
-## ⚠️ Important Disclaimer
+##  Important Disclaimer
 
 **THIS IS NOT AUDITED CODE. DO NOT USE IN PRODUCTION.**
 
@@ -126,7 +122,7 @@ Run the educational test suite:
 scarb test
 ```
 
-## 🤝 Contributing
+##  Contributing
 
 We welcome educational improvements, documentation fixes, and better examples. Please note that production improvements should be discussed with the Shades core team.
 
@@ -140,7 +136,7 @@ MIT License - For educational use only. Commercial use prohibited.
 2. [Shades Whitepaper](https://shades.org/whitepaper) - Technical details
 3. [Twitter @ShadesProtocol](https://twitter.com/ShadesProtocol) - Updates
 
-## ❓ Questions?
+##  Questions?
 
 Join our [Discord](https://discord.gg/shades) for educational discussions about ZK verification on Starknet.
 ```
